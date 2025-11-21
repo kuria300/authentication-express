@@ -1,0 +1,33 @@
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+
+.div-container{
+  @apply w-screen h-screen flex items-center justify-center bg-gray-100;
+}
+.form-container{
+  @apply bg-slate-600 p-6 rounded-lg shadow-lg w-80
+}
+.input-form{
+  @apply w-full p-2 rounded-md border-none mt-2
+}
+.btn-form{
+  @apply bg-blue-400 py-2 px-4 rounded-md text-white
+}
+
+
+/*Navbar*/
+
+.header-container{
+  @apply bg-slate-600 flex justify-between items-center p-2 shadow-lg
+}
+.heading{
+  @apply text-3xl text-white mx-6
+}
+.nav-container{
+  @apply flex justify-center mx-8
+}
+.nav-container ul {
+  @apply flex flex-row gap-4 text-xl text-white
+}
